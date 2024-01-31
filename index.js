@@ -1,7 +1,8 @@
 const buttons = document.querySelectorAll(".btn");
 const slides = document.querySelectorAll(".slide");
 
-// Tableau d'image : [0, 1, 2, 3]
+// Caroussel qui fonctionne comme un tableau,
+//  opacity a zero et un pour la slide active: [0, 1, 2, 3]
 
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
